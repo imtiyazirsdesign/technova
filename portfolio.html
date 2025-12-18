@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="./index.html">
+                <span class="brand-primary">Tech</span>Nova
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link active" href="./index.html">Home</a></li>
+
+
+
+                    <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
+                        <ul class="dropdown-menu shadow-lg">
+                            <li><a class="dropdown-item" href="./web-development.html">Web Development</a></li>
+                            <li><a class="dropdown-item" href="./mobile-application.html">Mobile Applications</a></li>
+                            <li><a class="dropdown-item" href="./cloud-solutions.html">Cloud Solutions</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./career.html">Careers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-primary btn-cta" href="./contact.html">Get Quote</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ================= Portfolio TECHNOVA ================= -->
+    <section class="about-technova">
+        <div class="about-overlay"></div>
+
+        <div class="container about-inner">
+            <div class="about-content">
+                <span class="about-tag">OUR PORTFOLIO</span>
+                <h2>
+                    Showcasing Our
+                    <span>Digital Excellence</span>
+                </h2>
+                <p>
+                    Discover how we transform ideas into powerful digital products.
+                    Explore our portfolio of innovative websites, applications,
+                    and digital experiences delivered for global clients.
+                </p>
+            </div>
+        </div>
+
+        <!-- RIGHT IMAGE -->
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop"
+                alt="technova Team">
+        </div>
+    </section>
+    <!-- portfolio -->
+    <section class="portfolio-section">
+        <div class="container">
+
+            <div class="portfolio-header">
+                <span class="section-tag">OUR WORK</span>
+                <h2>Showcasing Our <span>Digital Excellence</span></h2>
+                <p>Explore our latest projects across multiple industries.</p>
+            </div>
+
+            <!-- Filters -->
+            <div class="portfolio-filters">
+                <button class="active" data-filter="all">All</button>
+                <button data-filter="web">Web</button>
+                <button data-filter="app">App</button>
+                <button data-filter="uiux">UI/UX</button>
+                <button data-filter="seo">SEO</button>
+            </div>
+
+            <!-- Grid -->
+            <div class="portfolio-grid">
+
+                <!-- WEB -->
+                <div class="portfolio-card web">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="">
+                    <div class="portfolio-overlay">
+                        <h4>Corporate Website</h4>
+                        <p>Web Development</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-card web">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="">
+                    <div class="portfolio-overlay">
+                        <h4>E-Commerce Platform</h4>
+                        <p>Web Development</p>
+                    </div>
+                </div>
+
+                <!-- APP -->
+                <div class="portfolio-card app">
+                    <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9" alt="">
+                    <div class="portfolio-overlay">
+                        <h4>Mobile Banking App</h4>
+                        <p>App Development</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-card app">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3" alt="">
+                    <div class="portfolio-overlay">
+                        <h4>Fitness App</h4>
+                        <p>App Development</p>
+                    </div>
+                </div>
+
+                <!-- UI/UX -->
+                <div class="portfolio-card uiux">
+                    <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d" alt="">
+                    <div class="portfolio-overlay">
+                        <h4>Dashboard UI</h4>
+                        <p>UI/UX Design</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-card uiux">
+                    <img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6" alt="">
+                    <div class="portfolio-overlay">
+                        <h4>Website Redesign</h4>
+                        <p>UI/UX Design</p>
+                    </div>
+                </div>
+
+                <!-- SEO -->
+                <div class="portfolio-card seo">
+                    <img src="https://images.unsplash.com/photo-1533750349088-cd871a92f312" alt="">
+                    <div class="portfolio-overlay">
+                        <h4>SEO Growth Campaign</h4>
+                        <p>SEO Services</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-card seo">
+                    <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786" alt="">
+                    <div class="portfolio-overlay">
+                        <h4>Analytics Optimization</h4>
+                        <p>SEO Services</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ================= CLIENTS SECTION ================= -->
+    <section class="clients-section">
+        <div class="container">
+
+            <!-- Section Header -->
+            <div class="clients-header">
+                <h2>
+                    Clients We Have <span>Worked With</span>
+                </h2>
+                <p>Driving Digital Transformation for Global Leaders</p>
+            </div>
+
+            <!-- Clients Grid -->
+            <div class="clients-grid">
+
+                <!-- Client Card -->
+                <div class="client-card">
+                    <img src="./assets/client1.webp" alt="FazWaz">
+                </div>
+
+                <div class="client-card soft">
+                    <img src="./assets/client2.png" alt="TutorTime">
+                </div>
+
+                <div class="client-card">
+                    <img src="./assets/client3.png" alt="Alokozay">
+                </div>
+
+                <div class="client-card soft">
+                    <img src="./assets/client4.png" alt="Blufox">
+                </div>
+
+                <div class="client-card">
+                    <img src="./assets/client1.webp" alt="Roll Over">
+                </div>
+
+                <div class="client-card soft">
+                    <img src="./assets/client2.png" alt="Wyoming Military">
+                </div>
+
+                <div class="client-card">
+                    <img src="./assets/client3.png" alt="Parcel2Go">
+                </div>
+
+                <div class="client-card soft">
+                    <img src="./assets/client4.pngg" alt="TaylorMade">
+                </div>
+
+                <div class="client-card">
+                    <img src="./assets/client1.webp" alt="Mercedes Benz">
+                </div>
+
+                <div class="client-card soft">
+                    <img src="./assets/client2.png" alt="Vuukle">
+                </div>
+
+                <div class="client-card">
+                    <img src="./assets/client3.png" alt="Yamaha">
+                </div>
+
+                <div class="client-card soft">
+                    <img src="./assets/client4.png" alt="Agaro">
+                </div>
+
+                <div class="client-card">
+                    <img src="./assets/client1.webp" alt="Terum">
+                </div>
+
+                <div class="client-card soft">
+                    <img src="./assets/client2.png" alt="Shopdrop">
+                </div>
+
+                <div class="client-card">
+                    <img src="./assets/client3.png" alt="Blue Tees">
+                </div>
+
+            </div>
+        </div>
+    </section>
+   <!-- ================= FOOTER ================= -->
+    <footer class="footer-section">
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <!-- Company Info -->
+                <div class="footer-col">
+                    <a class="navbar-brand fw-bold" href="#">
+                        <span class="brand-primary">Tech</span>Nova
+                    </a>
+
+                    <p class="footer-text">
+                        Tech Nova is an ISO-certified organization registered under the
+                        MSME sector. We specialize in providing extensive software
+                        development services to government bodies, non-IT organizations,
+                        and software product companies—helping them enhance efficiency
+                        and achieve business excellence.
+                    </p>
+
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <!-- Company Links -->
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="./contact.html">Contact Us</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="footer-col">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="./web-development.html">Website Development</a></li>
+                        <li><a href="./mobile-application.html">App Development</a></li>
+                        <li><a href="./cloud-solutions.html">Cloud Solutions</a></li>
+                      
+                    </ul>
+
+                    <div class="dmca">
+                        <img src="https://images.dmca.com/Badges/dmca_protected_sml_120m.png" alt="DMCA">
+                    </div>
+                </div>
+
+                <!-- Contact -->
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+
+                    <p>
+                        🇺🇸 30765 Pacific Coast Highway,<br>
+                        Suite 453 Malibu, CA 90265
+                    </p>
+
+                    <p>
+                        🇮🇳 SDF Building, GP Block,<br>
+                        Sector V, Bidhannagar,<br>
+                        Kolkata, West Bengal 700091
+                    </p>
+
+                    <p>📧 sales@technova.com</p>
+                    <p>📞 +91 98624 70120</p>
+
+                    <a href="#" class="pay-btn">Pay Now</a>
+                    <small class="pay-note">Powered by PayU</small>
+                </div>
+
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="footer-bottom">
+
+                <div class="footer-payments">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png" alt="">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="">
+                </div>
+
+                <div class="footer-links">
+                    <a href="./privacy-policy.html">Privacy Policy</a>
+                    <a href="./terms-conditions.html">Terms & Conditions</a>
+                    <a href="./cancellation-refund-policy.html">Cancellation & Refund Policy</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer-copy">
+            © 2025 Tech Nova Pvt. Ltd. Designed & Developed by
+            <span>technova.com</span>. All rights reserved.
+        </div>
+    </footer>
+    <script>
+        /* ================= FILTER SCRIPT ================= */
+        const buttons = document.querySelectorAll(".portfolio-filters button");
+        const cards = document.querySelectorAll(".portfolio-card");
+
+        buttons.forEach(btn => {
+            btn.addEventListener("click", () => {
+
+                buttons.forEach(b => b.classList.remove("active"));
+                btn.classList.add("active");
+
+                const filter = btn.getAttribute("data-filter");
+
+                cards.forEach(card => {
+                    if (filter === "all" || card.classList.contains(filter)) {
+                        card.classList.remove("hide");
+                    } else {
+                        card.classList.add("hide");
+                    }
+                });
+            });
+        });
+    </script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>

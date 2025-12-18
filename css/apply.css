@@ -1,0 +1,63 @@
+/* ================= APPLY PAGE ================= */
+
+.page-apply {
+    background-color: #f8fbff;
+}
+
+/* HERO */
+.apply-hero {
+    padding: 140px 0 70px;
+    background:  linear-gradient(135deg, #050c1f, #0d6efd);
+}
+
+.apply-hero h1 {
+    font-weight: 800;
+}
+
+/* FORM SECTION */
+.apply-form-section {
+    padding: 70px 0;
+}
+
+.apply-card {
+    background: #ffffff;
+    padding: 45px;
+    border-radius: 18px;
+    box-shadow: 0 20px 40px rgba(13, 110, 253, 0.08);
+}
+
+.apply-card h4 {
+    font-weight: 700;
+}
+
+/* FORM */
+.form-label {
+    font-weight: 600;
+}
+
+.form-control,
+.form-select {
+    border-radius: 12px;
+    padding: 12px 14px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+}
+
+/* BUTTON */
+.btn-apply {
+    background: #0d6efd;
+    color: #fff;
+    padding: 14px 45px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-apply:hover {
+    background: #0b5ed7;
+    transform: translateY(-3px);
+}

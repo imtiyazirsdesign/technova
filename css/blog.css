@@ -1,0 +1,144 @@
+ :root {
+     --primary: #0d6efd;
+     --dark: #050c1f;
+     --light: #f5f8fc;
+     --radius: 18px;
+ }
+
+ body {
+     font-family: "Inter", sans-serif;
+ }
+ /* ================= BLOG HERO ================= */
+ .blog-hero {
+     background: linear-gradient(135deg, #050c1f, #0d6efd);
+     padding: 90px 0;
+     color: #fff;
+ }
+
+ .blog-hero h1 {
+     font-size: 3rem;
+     font-weight: 800;
+ }
+
+ .blog-hero p {
+     max-width: 600px;
+     margin-top: 15px;
+     color: #dbeafe;
+ }
+
+ /* ================= FILTER ================= */
+ .blog-filter {
+
+     margin-top: -30px;
+     margin-bottom: 60px;
+ }
+
+ .filter-box {
+
+     background: #fff;
+     border-radius: var(--radius);
+     padding: 20px;
+     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+     display: flex;
+     flex-wrap: wrap;
+     gap: 10px;
+     justify-content: center;
+ }
+
+ .filter-box button {
+     border-radius: 50px;
+     padding: 8px 22px;
+     border: 1px solid #e0e6f0;
+     background: transparent;
+     font-weight: 500;
+     cursor: pointer;
+ }
+
+ .filter-box button.active,
+ .filter-box button:hover {
+     background: var(--primary);
+     color: #fff;
+     border-color: var(--primary);
+ }
+
+ /* ================= BLOG GRID ================= */
+ .blog-page {
+     padding-bottom: 100px;
+
+ }
+
+ .blog-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+     gap: 30px;
+ }
+
+ .blog-card {
+     background: #fff;
+     border-radius: var(--radius);
+     overflow: hidden;
+     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
+     transition: transform .3s ease;
+ }
+
+ .blog-card.hide {
+     display: none;
+ }
+
+ .blog-card:hover {
+     transform: translateY(-6px);
+ }
+
+ .blog-image {
+     position: relative;
+     height: 220px;
+ }
+
+ .blog-image img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+
+ .blog-tag {
+     position: absolute;
+     top: 15px;
+     left: 15px;
+     background: var(--primary);
+     color: #fff;
+     font-size: 0.75rem;
+     padding: 5px 14px;
+     border-radius: 50px;
+ }
+
+ .blog-content {
+     padding: 25px;
+ }
+
+ .blog-date {
+     font-size: 0.8rem;
+     color: #6c757d;
+ }
+
+ .blog-content h3 {
+     font-size: 1.2rem;
+     margin: 10px 0;
+     font-weight: 700;
+ }
+
+ .blog-content p {
+     font-size: 0.95rem;
+     color: #6c757d;
+ }
+
+ .blog-link {
+     color: var(--primary);
+     font-weight: 600;
+     text-decoration: none;
+ }
+
+ @media(max-width: 768px) {
+     .blog-hero h1 {
+         font-size: 2.2rem;
+     }
+ }

@@ -1,0 +1,42 @@
+/* ================= PRIVACY POLICY PAGE ================= */
+
+.page-privacy {
+    background-color: #f8fbff;
+}
+
+/* HERO */
+.privacy-hero {
+    padding: 140px 0 70px;
+    background: linear-gradient(135deg, #050c1f, #0d6efd);
+}
+
+.privacy-hero h1 {
+    font-weight: 800;
+}
+
+/* CONTENT */
+.privacy-content {
+    padding: 70px 0;
+}
+
+.privacy-card {
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 18px;
+    box-shadow: 0 20px 40px rgba(13, 110, 253, 0.08);
+}
+
+.privacy-card h4 {
+    margin-top: 35px;
+    font-weight: 700;
+}
+
+.privacy-card p,
+.privacy-card li {
+    color: #555;
+    line-height: 1.8;
+}
+
+.privacy-card ul {
+    padding-left: 20px;
+}
