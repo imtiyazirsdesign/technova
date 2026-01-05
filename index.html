@@ -9,9 +9,12 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <!-- Add Animation on scroll -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 
 <body class="page-home">
+
     <!-- ================= NAVBAR ================= -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top custom-navbar">
         <div class="container">
@@ -60,15 +63,16 @@
             <div class="hero-grid row align-items-center">
                 <!-- LEFT CONTENT -->
                 <div class="col-md-6">
-                    <div class="hero-content">
+                    <div class="hero-content" >
 
-                        <div class="rating-badges">
+                        <div class="rating-badges"  data-aos="fade-left">
                             <span>
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
                                 4.7
                             </span>
                             <span>
-                                <img src="https://www.webskitters.com/wp-content/uploads/2025/10/clutch-review-logo.webp">
+                                <img
+                                    src="https://www.webskitters.com/wp-content/uploads/2025/10/clutch-review-logo.webp">
                                 4.9
                             </span>
                             <span>
@@ -78,22 +82,22 @@
                             </span>
                         </div>
 
-                        <h1>
+                        <h1 data-aos="fade">
                             Transforming Ideas<br>
                             Into Cutting-Edge<br>
                             <span>Digital Solutions</span>
                         </h1>
 
-                        <p>
+                        <p data-aos="fade-right">
                             Creating innovative, high-impact digital solutions that
                             accelerate growth and redefine your business online.
                         </p>
 
-                        <a href="#" class="hero-btn">Schedule A Call →</a>
+                        <a href="#" class="hero-btn" data-aos="slide-up">Schedule A Call →</a>
                     </div>
                 </div>
                 <!-- RIGHT VIDEO -->
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="slide-left">
                     <div class="hero-video">
                         <video autoplay muted loop playsinline>
                             <source src="./assets/hero-video.mp4" type="video/mp4">
@@ -108,7 +112,7 @@
         </div>
     </section>
     <!-- ================= ABOUT US SECTION ================= -->
-    <section class="about-section">
+    <section class="about-section" data-aos="zoom-in">
         <!-- About Section Background Effect -->
         <div class="about-animated-bg">
 
@@ -182,7 +186,7 @@
         </div>
     </section>
     <!-- ================= OUR CORE SERVICES ================= -->
-    <section class="core-services-v2 core-bg">
+    <section class="core-services-v2 core-bg" data-aos="slide-up">
         <h1 class="text-center ">OUR CORE <span style="color: #0d6efd;">SERVICES</span></h1>
         <p class="text-center ">As a full-service digital marketing agency, IRS Design provides comprehensive solutions
             that
@@ -220,7 +224,7 @@
                     <div class="service-panel active" id="mobile">
                         <div class="row align-items-center">
                             <!-- LEFT CONTENT -->
-                            <div class="col-lg-7">
+                            <div class="col-lg-7" data-aos="slide-left">
                                 <h2>Mobile Applications</h2>
                                 <div class="service-line"></div>
 
@@ -240,7 +244,7 @@
                             </div>
 
                             <!-- RIGHT IMAGE -->
-                            <div class="col-lg-5 phone-wrapper">
+                            <div class="col-lg-5 phone-wrapper" data-aos="zoom-in">
 
                                 <img src="./assets/mobileapp.jpg" class="phone-img" alt="Mobile App">
                             </div>
@@ -582,7 +586,8 @@
         </div>
     </section>
     <!-- ================= PORTFOLIO SECTION ================= -->
-    <section class="portfolio-section  portfolio-bg">
+    <section class="portfolio-section  portfolio-bg" 
+>
         <div class="section-animated-bg">
             <canvas id="portfolioParticleCanvas"></canvas>
         </div>
@@ -727,7 +732,7 @@
                 solutions across diverse industries worldwide.
             </p>
 
-            <div class="industries-grid">
+            <div class="industries-grid" data-aos="zoom-in">
 
                 <div class="industry-card">
                     <div class="industry-icon">
@@ -841,17 +846,17 @@
                 <div class="ai-visual">
 
                     <!-- Main Image -->
-                    <div class="ai-main-image">
+                    <div class="ai-main-image" data-aos="zoom-in">
                         <img src="./assets/leta-talk-ai-img.webp" alt="AI Collaboration">
                     </div>
 
                     <!-- Happy Customers -->
-                    <div class="ai-badge customers">
+                    <div class="ai-badge customers" data-aos="fade-right">
                         ⭐⭐⭐⭐⭐ <strong>Happy Customers</strong>
                     </div>
 
                     <!-- Projects Card -->
-                    <div class="ai-card">
+                    <div class="ai-card" data-aos="fade-left">
                         <img src="./assets/lets-talk-ai-small-img.webp" alt="AI Project">
                         <h4><span>20+</span> Successful Projects</h4>
                     </div>
@@ -860,28 +865,28 @@
 
                 <!-- RIGHT CONTENT -->
                 <div class="ai-content">
-                    <span class="ai-label">LET’S TALK AI</span>
+                    <span class="ai-label" data-aos="zoom-in">LET’S TALK AI</span>
 
-                    <h2>
+                    <h2 data-aos="slide-left">
                         Future-Proof Your Business With Our
                         <span>Intelligent AI Tech</span>
                     </h2>
 
-                    <p>
+                    <p data-aos="fade-right">
                         Take advantage of our complete range of AI services, built
                         to drive tangible business impact. Our robust AI systems are
                         designed using industry best practices to streamline operations,
                         strengthen customer loyalty, and unlock new opportunities.
                     </p>
 
-                    <ul class="ai-list">
+                    <ul class="ai-list" data-aos="zoom-in">
                         <li>AI service solutions</li>
                         <li>AI development</li>
                         <li>AI chatbot development</li>
                         <li>Generative AI consulting</li>
                     </ul>
 
-                    <a href="#" class="ai-btn">Explore AI Tech With Us →</a>
+                    <a href="#" class="ai-btn" data-aos="fade-up">Explore AI Tech With Us →</a>
                 </div>
 
             </div>
@@ -980,7 +985,7 @@
         </div>
     </section>
     <!-- ================= FAQ SECTION ================= -->
-    <section class="faq-section">
+    <section class="faq-section" data-aos="slide-up">
         <div class="container">
 
             <span class="section-badge">Need Help?</span>
@@ -1073,13 +1078,13 @@
     <section class="blog-section">
         <div class="container">
 
-            <span class="section-badge">Insights</span>
+            <span class="section-badge" data-aos="zoom-in">Insights</span>
 
-            <h2 class="section-title">
+            <h2 class="section-title" data-aos="zoom-in">
                 Latest <span>Blogs & Articles</span>
             </h2>
 
-            <p class="section-subtitle">
+            <p class="section-subtitle" data-aos="zoom-in">
                 Stay updated with the latest trends, insights, and best practices
                 in technology and digital innovation.
             </p>
@@ -1087,7 +1092,7 @@
             <div class="blog-grid">
 
                 <!-- Blog Card -->
-                <article class="blog-card">
+                <article class="blog-card" data-aos="fade-right">
                     <div class="blog-image">
                         <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="">
                         <span class="blog-tag">Technology</span>
@@ -1104,7 +1109,7 @@
                 </article>
 
                 <!-- Blog Card -->
-                <article class="blog-card">
+                <article class="blog-card" data-aos="fade-up">
                     <div class="blog-image">
                         <img src="https://images.unsplash.com/photo-1552664730-d307ca884978" alt="">
                         <span class="blog-tag">Business</span>
@@ -1121,7 +1126,7 @@
                 </article>
 
                 <!-- Blog Card -->
-                <article class="blog-card">
+                <article class="blog-card" data-aos="fade-left">
                     <div class="blog-image">
                         <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998" alt="">
                         <span class="blog-tag">Startup</span>
@@ -1192,7 +1197,7 @@
                         <li><a href="./web-development.html">Website Development</a></li>
                         <li><a href="./mobile-application.html">App Development</a></li>
                         <li><a href="./cloud-solutions.html">Cloud Solutions</a></li>
-                      
+
                     </ul>
 
                     <div class="dmca">
@@ -1253,7 +1258,14 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./js/main.js"></script>
+    <!-- Add Animation on scroll -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
+    <script>
+        AOS.init({ duration: 800,
+    easing: "ease-in-out",
+    once: false});
+    </script>
 </body>
 
 </html>
