@@ -27,15 +27,13 @@
     position: absolute;
     inset: 0;
     z-index: 1;
-    background: linear-gradient(
-        90deg,
-        #050c1f 0%,
-        rgba(5, 12, 31, 0.95) 35%,
-        rgba(5, 12, 31, 0.75) 55%,
-        rgba(5, 12, 31, 0.35) 75%,
-        rgba(5, 12, 31, 0.1) 90%,
-        transparent 100%
-    );
+    background: linear-gradient(90deg,
+            #050c1f 0%,
+            rgba(5, 12, 31, 0.95) 35%,
+            rgba(5, 12, 31, 0.75) 55%,
+            rgba(5, 12, 31, 0.35) 75%,
+            rgba(5, 12, 31, 0.1) 90%,
+            transparent 100%);
 }
 
 /* ================= CONTENT WRAPPER ================= */
@@ -43,6 +41,7 @@
     position: relative;
     z-index: 2;
     width: 100%;
+    
 }
 
 /* ================= CONTENT ================= */
@@ -106,12 +105,10 @@
     }
 
     .about-overlay {
-        background: linear-gradient(
-            180deg,
-            #050c1f 0%,
-            rgba(5, 12, 31, 0.9) 65%,
-            rgba(5, 12, 31, 0.55) 100%
-        );
+        background: linear-gradient(180deg,
+                #050c1f 0%,
+                rgba(5, 12, 31, 0.9) 65%,
+                rgba(5, 12, 31, 0.55) 100%);
     }
 
     .about-image {
